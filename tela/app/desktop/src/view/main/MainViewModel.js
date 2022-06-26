@@ -69,11 +69,13 @@ Ext.define("Tela.view.main.MainViewModel", {
                             {
                                 text: "Administrative Areas",
                                 iconCls: "x-fa fa-location-arrow",
+                                xtype:"administativeAreaView",
                                 leaf: true,
                             },
                             {
                                 text: "Subjects",
                                 iconCls: "x-fa fa-book-reader",
+                                xtype:"subjectView",
                                 leaf: true,
                             },
                             {
